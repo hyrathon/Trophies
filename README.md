@@ -22,4 +22,20 @@ Trophies of my bug hunting adventures
 | CVE-2020-11293 | Widevine TA     | https://source.android.com/security/overview/acknowledgements#may-2021 |
 | CVE-2020-11304 | Widevine TA     | https://source.android.com/security/overview/acknowledgements#june-2021 |
 
-## Other Bug Hunting
+## Opensource Projects Bug Hunting
+
+### json.h
+1. Heap Overflow in json.h(json_parse_key())
+https://github.com/hyrathon/trophies/security/advisories/GHSA-r2mm-2f4c-6243
+
+2. Heap Overflow in json.h(json_parse_number())
+https://github.com/hyrathon/trophies/security/advisories/GHSA-r9wh-hxqh-3xq7
+
+3. Heap Overflow in json.h(json_parse_value())
+https://github.com/hyrathon/trophies/security/advisories/GHSA-55fm-gm4m-3v3j
+
+4. Heap Overflow in json.h(json_parse_object())
+https://github.com/hyrathon/trophies/security/advisories/GHSA-wvpq-p7pp-cj6m
+
+5. Heap Overflow in json.h(json_parse_string())
+https://github.com/hyrathon/trophies/security/advisories/GHSA-29hf-wrjw-2f28
